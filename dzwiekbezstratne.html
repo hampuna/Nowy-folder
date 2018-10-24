@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formaty bezstratne dźwięku</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body class="site yellowbackground">
+    <nav>
+        <ul>
+            <li><a href="dzwiek.html">Co to jest dźwięk?</a></li>
+            <li><a href="dzwiekstratne.html">Formaty stratne dźwięku</a></li>
+            <li><a href="dzwiekbezstratne.html">Formaty bezstratne dźwięku</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="wideo.html">Co to jest wideo?</a></li>
+            <li><a href="wideoformaty.html">Formaty wideo</a></li>
+        </ul>
+    </nav>
+    <main id="sitecontent">
+        <content class="formats">
+            <div class="menu">
+                <a href="#wav" class="button-3d">WAV</a>
+                <a href="#flac" class="button-3d">FLAC</a>
+                <a href="#m4a" class="button-3d">M4A / Apple</a>
+                <a href="#mlp" class="button-3d">MLP</a>
+            </div>
+            <div class="info">
+                <h4 id="wav">WAV</h4>
+                <p>Pliki te są oryginalnie przetworzonymi sygnałami analogowymi bez żadnej kompresji. Jakość takiego pliku zapisana jest częstotliwością próbkowania i rozdzielczością bitową a jedyne straty i zniekształcenia to wyłącznie te powstałe w wyniku kwantyzacji sygnału analogowego na cyfrowy. Największą ich wadą jest duże zapotrzebowanie na miejsce. Najważniejszym przedstawicielem jest format Wave (.WAV). Pliki te mimo dużego rozmiaru cieszą się dużą popularnością, gdyż w większości komputerów PC jest zaimplementowana ich obsługa.</p>
+                <h4 id="flac">FLAC</h4>
+                <p>Najpopularniejszy obecnie format kompresji bezstratnej. W porównaniu do plików mp3 oferuje taką samą informację o pliku jak formaty bez kompresji, ale za pomocą specjalnych algorytmów jego rozmiar jest mniejszy o około połowę. Kompresja FLAC wykorzystuje predykcję liniową – wartość pojedynczej próbki dźwięku jest przewidywana na podstawie wartości kilku wcześniejszych próbek, a zapisywana jest tylko różnica między wartością rzeczywistą a obliczoną. FLAC jest darmowym i otwartym kodekiem. <br><br>
+                Cechy: <br>
+                -brak utraty jakości <br>
+                -szybka kompresja <br>
+                -dekodowanie w czasie rzeczywistym (małe wymagania sprzętowe) <br>
+                -sprzętowe wsparcie odtwarzania <br>
+                -strumieniowość <br>
+                -metadane <br>
+                -odporność na błędy</p>
+                <h4 id="m4a">M4A / Apple</h4>
+                <p>Jest to kontener multimedialny który zawiera kodeki bezstratnych jak i stratnych formatów audio. Jego zaletą jest wielokanałowa bezstratna kompresja w jakości 24bit/192kHz przy zmniejszeniu rozmiaru pliku o połowę. Wadą jest silna integracja z iTunes i produktami Apple. Format rzadko używany na zewnątrz tego ekosystemu.</p>
+                <h4 id="mlp">MLP</h4>
+                <p>Standard bezstratnej kompresji sygnału PCM, stworzony przez firmę Meridian Audio, Ltd. Jest standardem bezstratnej kompresji dla płyt DVD-Audio. Pozwala na zapisanie do 6 kanałów audio przy 96 kHz i 24 bitach lub 2 kanałów przy 192 kHz i 24 bitach. Algorytm został wykorzystany przy zapisie  formatu dźwięku Dolby TrueHD na płytach Blu-ray.</p>
+            </div>
+        </content>
+    </main>
+</body>
+
+</html>
